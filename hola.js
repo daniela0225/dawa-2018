@@ -1,7 +1,8 @@
 var http = require('http');
 
 var manejador = function(solicitud,respuesta){
-	console.log('Hola Mundo');
+	console.log('Conexion Entrante');
+	respuesta.end('Hola Mundo');
 
 };
 
