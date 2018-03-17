@@ -1,10 +1,11 @@
-var http = require('http');
+var http = require('http'),
 
 fs = require('fs');
 
-var html = fs.readFileSync('./index.html'){
+var html = fs.readFileSync('./acme.html');
 
-	http.createServer(function(solicitud,respuesta){
-		respuesta.write(html);
-		respuesta.end();
-	}).listen(8080);
+http.createServer(function(solicitud,respuesta){
+	
+	respuesta.write(html);
+
+}).listen(8080);
