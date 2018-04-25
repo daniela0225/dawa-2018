@@ -1,0 +1,17 @@
+2.3
+- el error obtenido en consola es debido a que en el ciclo for no reconoce arreglo_numeros, para que se solucione el error entonces debemos colocar todo el ciclo for dentro de el if.
+
+2.5
+- arreglo_parametros = recibe todo lo que se envia a travez de la url en este caso "nombre=batman"
+- parametros = el dato que debe enviar (nombre)
+- valores = los datos (batman)
+
+
+3.8
+nos es util cuando tenemos datos en otros archivos, asi podemos llamarlos sin necesidad de colocarlos en el mismo archivo.
+
+5.3
+- Las funciones en node son simples, no se necesita mucho codifo para algo pequeño.
+- Mientras no se cierre la funcion con una llave, seguiran agregandoe lineas a la funcion.
+
+
