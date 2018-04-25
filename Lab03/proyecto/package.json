@@ -1,0 +1,14 @@
+{
+  "name": "aduvirichirinos_tecsup",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniela Aduviri",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
