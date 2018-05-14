@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
 Schema = mongoose.Schema;
 
-mongoose.connect('mongodb://localhost/chat');
+mongoose.createConnection('mongodb://localhost/chat');
 
 var user_schema = new Schema({
 	_id: String,
