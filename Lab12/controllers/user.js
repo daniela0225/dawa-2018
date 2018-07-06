@@ -1,3 +1,4 @@
+const utils = require('../lib/utils');
 const User = require('../models/user.js');
 
 const exposedFields = [
